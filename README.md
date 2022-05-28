@@ -22,7 +22,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/tdiego1/Scheduling_App">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/main_screen.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Scheduling App</h3>
@@ -76,10 +76,11 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 
 
-### Built With
-
-* [Java](https://www.java.com/en/)
-* [JavaFX](https://gluonhq.com/products/javafx/)
+### Development Environment
+* [IntelliJ Community 2021.1.3](https://www.jetbrains.com/idea/)
+* [Java SE 17.0.1](https://www.java.com/en/)
+* [JavaFX SDK 17.0.1](https://gluonhq.com/products/javafx/)
+* MySQL Connector Java 8.0.26
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
