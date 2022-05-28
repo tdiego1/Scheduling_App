@@ -70,7 +70,11 @@ modified, and deleted. Reports can be generated based on the collected data.
 
 ![Product Name Screen Shot][product-screenshot]
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+<b>Business Problem</b>: You are working for a software company that has been contracted to develop a GUI-based scheduling desktop 
+application. The contract is with a global consulting organization that conducts business in multiple languages and has main 
+offices in Phoenix, Arizona; White Plains, New York; Montreal, Canada; and London, England. The consulting organization has 
+provided a MySQL database that the application must pull data from. The database is used for other systems, so its structure 
+cannot be modified.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -80,7 +84,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 * [IntelliJ Community 2021.1.3](https://www.jetbrains.com/idea/)
 * [Java SE 17.0.1](https://www.java.com/en/)
 * [JavaFX SDK 17.0.1](https://gluonhq.com/products/javafx/)
-* MySQL Connector Java 8.0.26
+* [MySQL](https://www.mysql.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -89,32 +93,24 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+* Install IntelliJ Community 2021.1.3
+* Install Java SE 17.0.1
+* Install JavaFX SDK 17.0.1
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+1. Download project
+2. Open project in IntelliJ
+3. Ensure JavaFX is added to project libraries
+4. Add JavaFX path variable, `PATH_TO_FX`, in IntelliJ preferences with location of JavaFX
+5. Edit run configuration
+   1. Modify Options and Add VM options
+   2. Add line to VM options
+      ```
+      --module-path ${PATH_TO_FX} --add-modules javafx.fxml,javafx.controls,javafx.graphics
+      ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
