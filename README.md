@@ -119,7 +119,7 @@ cannot be modified.
 At the start of the application the user is brought to the login screen. The text is translated to either english or french 
 depending on the user's system default language.
 
-<img src="images/login_screen.png" height="100">
+<img src="images/login_screen.png" height="300">
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
