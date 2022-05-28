@@ -1,4 +1,4 @@
-#Scheculing App v1.0
+# Scheculing App 
 - Author: Diego Torres
 - email: dtor172@wgu.edu
 - Date: 2022-04-26
