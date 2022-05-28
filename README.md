@@ -18,6 +18,13 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/tdiego1/Scheduling_App">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
 <h3 align="center">Scheduling App</h3>
 
   <p align="center">
@@ -71,14 +78,8 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Java](https://www.java.com/en/)
+* [JavaFX](https://gluonhq.com/products/javafx/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
