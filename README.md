@@ -159,8 +159,8 @@ Here are some features implemented:
 
 ### Reports Screen
 The reports screen allows the user to generate three reports:
-* Customer appointments by type and month
-* Schedule by contacts
+* Customer appointments by type and month.
+* Schedule by contacts.
 * Number of appointments per location. 
 
 <p align="center">
@@ -176,10 +176,29 @@ The reports screen allows the user to generate three reports:
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [x] Login Form
+  - [x] Accept username and password
+  - [x] Determine and display location
+  - [x] Display login form in French and English depending on system language
+  - [x] Automatically translate error control messages
+  - [x] Alert when an appointment is within 15 minutes of login
+- [x] Customer Screen
+  - [x] Records can be added, updated, and deleted
+  - [x] Country and first-level divisions are pre-populated
+  - [x] All original customer data is displayed in customer form
+  - [x] All fields can be updated except for customer ID
+- [ ] Appointments Screen
+    - [x] Records can be added, updated, and deleted
+    - [x] Appointments can be filtered by all, month, or week
+    - [x] User is able to adjust appointment times
+    - [x] Input validation
+    - [ ] Added drop-down menus for start and end times
+- [ ] Reports Screen
+  - [x] Generate customer appointments by type and month report
+  - [x] Generate schedule by contacts report
+  - [x] Generate number of appointments per location
+  - [ ] Generate login record report
+    
 
 <!-- See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues). -->
 
