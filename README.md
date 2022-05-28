@@ -56,10 +56,7 @@ modified, and deleted. Reports can be generated based on the collected data.
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -70,7 +67,7 @@ modified, and deleted. Reports can be generated based on the collected data.
 
 ![Product Name Screen Shot][product-screenshot]
 
-<b>Business Problem</b>: You are working for a software company that has been contracted to develop a GUI-based scheduling desktop 
+<b>Business Problem</b>: You have been contracted to develop a GUI-based scheduling desktop 
 application. The contract is with a global consulting organization that conducts business in multiple languages and has main 
 offices in Phoenix, Arizona; White Plains, New York; Montreal, Canada; and London, England. The consulting organization has 
 provided a MySQL database that the application must pull data from. The database is used for other systems, so its structure 
@@ -119,9 +116,11 @@ cannot be modified.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+At the start of the application the user is brought to the login screen. The text is translated to either english or french 
+depending on the user's system default language.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+<img src="images/login_screen.png" height="100">
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -146,6 +145,7 @@ Diego Torres - tdiego001@gmail.com
 
 Project Link: [https://github.com/tdiego1/Scheduling_App](https://github.com/tdiego1/Scheduling_App)
 
+[![Linkedin Diego Torres][linkedin-shield]][linkedin-url]
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -161,5 +161,5 @@ Project Link: [https://github.com/tdiego1/Scheduling_App](https://github.com/tdi
 [license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://linkedin.com/in/diegotorres001
 [product-screenshot]: images/main_screen.png
