@@ -115,13 +115,58 @@ cannot be modified.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-
-At the start of the application the user is brought to the login screen. The text is translated to either english or french 
-depending on the user's system default language.
-
+### Login Screen
+At the start of the application the user is brought to the login screen. The text is translated to either English or French 
+depending on the user's system default language. The user must enter a username and password to authenticate. Error handling
+is implemented to catch any errors related to database retrieval or incorrect inputs. Once a user is successfully authenticated 
+a message is displayed alerting them of any appointments scheduled in the next 15 minutes.
 <p align="center">
 <img src="images/login_screen.png" height="300">
 </p>
+
+### Appointments Screen
+The appointments screen shows a list of all the appointments currently scheduled from the database.
+
+![Product Name Screen Shot][product-screenshot]
+
+Appointments can be created, edited, and deleted from the right hand menu. The fields auto-populate when an item in the table 
+is selected.
+
+Here are some more features implemented:
+* Filter appointments by month, week, or all.
+* Edit individual fields for each record.
+* Update the record in the database.
+* Delete a record from the database.
+* Ensuring no appointments overlap between individual customers.
+* Ensuring appointments can only be scheduled during business hours EST.
+* Appointments are inputed in local time and converted to UTC for database storage.
+* Appointments are converted from UTC to user's system time for viewing.
+* Auto-generate appointment IDs.
+
+### Customers Screen
+The customers screen shows a list of all the customers currently in the database.
+
+<p align="center">
+<img src="images/customer_screen.png">
+</p>
+
+Users can create, update, and delete customers from the right hand menu. The fields auto-populate when an item in the table
+is selected.
+
+Here are some features implemented:
+* Country and first-level division filtering.
+* Unique customer ID generation.
+
+### Reports Screen
+The reports screen allows the user to generate three reports:
+* Customer appointments by type and month
+* Schedule by contacts
+* Number of appointments per location. 
+
+<p align="center">
+<img src="images/reports_screen.png" height="300">
+</p>
+
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
